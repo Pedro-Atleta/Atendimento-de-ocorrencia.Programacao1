@@ -54,4 +54,6 @@ public class Bombeiro {
     public void setContato(int Contato) {
         this.Contato = Contato;
     }
+    public void ObterEquipe(){
+    }
 }
