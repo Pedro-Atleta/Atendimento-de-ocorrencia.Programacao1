@@ -26,4 +26,8 @@ public class Equipe {
     public void setListaBombeiros(String ListaBombeiros) {
         this.ListaBombeiros = ListaBombeiros;
     }
+    public void AdicionarBombeiros(){
+    }
+    public void ListarBombeiros(){
+    }
 }
