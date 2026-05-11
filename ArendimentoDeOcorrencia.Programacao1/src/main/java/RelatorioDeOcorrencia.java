@@ -57,6 +57,5 @@ public class RelatorioDeOcorrencia {
         this.reponavel = reponavel;
     }
     public void gerarRelatorio() {
-        
     }
 }
