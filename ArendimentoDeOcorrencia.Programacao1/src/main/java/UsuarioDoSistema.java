@@ -45,4 +45,10 @@ public class UsuarioDoSistema {
     public void setPerfil(String Perfil) {
         this.Perfil = Perfil;
     }
+    public void ConsultarOcorrencias(){    
+    }
+    public void CadastrarOcorrencias(){
+    }
+    public void AutenticarSistema(){
+    }
 }
