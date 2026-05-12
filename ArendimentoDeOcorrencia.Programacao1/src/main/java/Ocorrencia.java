@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class Ocorrencia {
 
-    private String ocorrencia;
+    private String IDocorrencia;
     private String tipoOcorrencias;
     private Date Data;
     private int hora;
@@ -20,12 +20,12 @@ public class Ocorrencia {
     private String prioridade;
     private String sinistro;
 
-    public String getOcorrencia() {
-        return ocorrencia;
+    public String getIdOcorrencia() {
+        return IDocorrencia;
     }
 
     public void setOcorrencia(String ocorrencia) {
-        this.ocorrencia = ocorrencia;
+        this.IDocorrencia = ocorrencia;
     }
 
     public String getTipoOcorrencias() {
@@ -77,7 +77,7 @@ public class Ocorrencia {
     }
 
     public Ocorrencia(String ocorrencia, String tipoOcorrencias, Date Data, int hora, String local, String status, String prioridade, String sinistro) {
-        this.ocorrencia = ocorrencia;
+        this.IDocorrencia = ocorrencia;
         this.tipoOcorrencias = tipoOcorrencias;
         this.Data = Data;
         this.hora = hora;
